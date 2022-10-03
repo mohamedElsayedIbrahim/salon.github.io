@@ -1,0 +1,41 @@
+$color1:#eeeeee;
+$color2:#515151;
+$color3:#262626;
+$color4:#d22828;
+$color5:#26589f;
+
+.header
+{
+    background-color: $color3;
+    width: 100%;
+    .intro-video
+    {
+        width: 100%;
+    }
+
+    .navbar
+    {
+        .navbar-brand
+        {
+            img
+            {
+                width: 100px;
+            }
+        }
+    }
+}
+
+.info{
+    h1{
+        color: $color4 !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .info{
+        .pt-xs-5
+        {
+            padding-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.header {
+  background-color: #262626;
+  width: 100%;
+}
+.header .intro-video {
+  width: 100%;
+}
+.header .navbar .navbar-brand img {
+  width: 100px;
+}
+
+.info h1 {
+  color: #d22828 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .info .pt-xs-5 {
+    padding-top: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */
