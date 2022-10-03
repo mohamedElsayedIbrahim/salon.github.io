@@ -4,6 +4,11 @@ $color3:#262626;
 $color4:#d22828;
 $color5:#26589f;
 
+.text-color4
+{
+    color: $color4 !important;
+}
+
 .header
 {
     background-color: $color3;
@@ -38,4 +43,64 @@ $color5:#26589f;
             padding-top: 1rem;
         }
     }
+}
+
+.service{
+    .item
+    {
+        .overlay
+        {
+            background-color: #26262663;
+            color: $color1;
+            &:hover h3::after
+                {
+                    transition-property: padding-top;
+                    transition-duration: 1s;
+                    transition-timing-function: ease-in-out;
+                    padding-top: 2px;
+                }
+            h3{
+                position: relative;
+                &::after{
+                    content: "";
+                    background-color: $color1;
+                    position: absolute;
+                    padding-top: 0px;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.news
+{
+    .form-control{
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+
+.foot
+{
+    .social
+    {
+        .channel
+        {
+            width: 50px;
+            height: 50px;
+            border: $color1 solid 1px;
+            border-radius: 50%;
+            margin-left: 0.5rem;
+            a
+            {
+                color: $color1;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
 }

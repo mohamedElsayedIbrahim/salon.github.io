@@ -1,3 +1,7 @@
+.text-color4 {
+  color: #d22828 !important;
+}
+
 .header {
   background-color: #262626;
   width: 100%;
@@ -17,4 +21,42 @@
   .info .pt-xs-5 {
     padding-top: 1rem;
   }
+}
+.service .item .overlay {
+  background-color: rgba(38, 38, 38, 0.3882352941);
+  color: #eeeeee;
+}
+.service .item .overlay:hover h3::after {
+  transition-property: padding-top;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  padding-top: 2px;
+}
+.service .item .overlay h3 {
+  position: relative;
+}
+.service .item .overlay h3::after {
+  content: "";
+  background-color: #eeeeee;
+  position: absolute;
+  padding-top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.news .form-control:focus {
+  box-shadow: none;
+}
+
+.foot .social .channel {
+  width: 50px;
+  height: 50px;
+  border: #eeeeee solid 1px;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+.foot .social .channel a {
+  color: #eeeeee;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
