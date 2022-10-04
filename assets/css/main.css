@@ -18,6 +18,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .header .booking a {
+    font-size: 0.5rem;
+  }
   .info .pt-xs-5 {
     padding-top: 1rem;
   }
