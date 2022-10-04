@@ -2,6 +2,10 @@
   color: #d22828 !important;
 }
 
+.bg-nav {
+  background-color: transparent;
+}
+
 .header {
   background-color: #262626;
   width: 100%;
@@ -18,6 +22,12 @@
 }
 
 @media screen and (max-width: 576px) {
+  .header .navbar-nav {
+    position: relative;
+    z-index: 100;
+    padding: 5px;
+    background-color: #262626;
+  }
   .header .booking a {
     font-size: 0.5rem;
   }

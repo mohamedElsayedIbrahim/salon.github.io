@@ -9,6 +9,11 @@ $color5:#26589f;
     color: $color4 !important;
 }
 
+.bg-nav
+{
+    background-color: transparent;
+}
+
 .header
 {
     background-color: $color3;
@@ -37,8 +42,16 @@ $color5:#26589f;
 }
 
 @media screen and (max-width:576px) {
+    
     .header
     {
+        .navbar-nav
+        {
+            position: relative;
+            z-index: 100;
+            padding: 5px;
+            background-color: $color3;
+        }
         .booking
         {
             a
